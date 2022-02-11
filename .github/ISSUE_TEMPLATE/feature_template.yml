@@ -1,0 +1,26 @@
+name: Feature request
+description: Use this template for requesting a feature/enhancement.
+title: "Enhancement: "
+labels: ["kind/feature-request"]
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please note that incompatibility with GitHub Actions should be opened as a bug report, not a new feature.
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature description
+      description: Describe feature that you would like to see
+      placeholder: ...
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version
+      description: What version are you using?
+    validations:
+      required: true
